@@ -1,11 +1,9 @@
 import Table from "react-bootstrap/Table";
-import { styled, alpha } from "@mui/material/styles";
 import CircularProgress from "@mui/material/CircularProgress";
 import Box from "@mui/material/Box";
 import DataContext from "../context/DataContext";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import Avatar from "@mui/material/Avatar";
-import InputBase from "@mui/material/InputBase";
 import TextField from "@mui/material/TextField";
 import { SearchInput } from "evergreen-ui";
 
