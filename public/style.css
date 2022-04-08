@@ -1,0 +1,34 @@
+body {
+  background-color: #282c34;
+}
+
+#mapping_table tbody {
+  display: block;
+  height: 750px;
+  overflow-y: scroll;
+}
+#mapping_table thead {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+#mapping_table tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.spin {
+  background-color: transparent !important;
+}
+
+.MuiTextField-root {
+  background-color: whitesmoke;
+}
+
+.boxbox-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px auto;
+}
